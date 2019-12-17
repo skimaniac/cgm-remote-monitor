@@ -141,6 +141,10 @@ a, a:visited, a:link {
   color: #4cff00;
 }
 
+.bgStatus .bgSpan {
+  white-space: nowrap;
+}
+
 .bgStatus .currentBG {
   font-size: 120px;
   line-height: 100px;
@@ -432,9 +436,9 @@ a, a:visited, a:link {
   font-size: 12px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .bgStatus {
-    width: 300px;
+    width: 450px;
   }
 
   .bgButton {
